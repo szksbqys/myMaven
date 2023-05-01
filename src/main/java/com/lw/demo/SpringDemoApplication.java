@@ -9,5 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringDemoApplication.class,args);
+        System.out.println("启动成功");
     }
 }
