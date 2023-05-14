@@ -22,11 +22,11 @@ public class MyInterceptor implements HandlerInterceptor {
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        log.info("方法结束的时候，视图返回之前的调用打印");
+        //log.info("方法结束的时候，视图返回之前的调用打印");
     }
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        log.info("方法结束，视图返回，做一些清理工作");
+        //log.info("方法结束，视图返回，做一些清理工作");
     }
 }
